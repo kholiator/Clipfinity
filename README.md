@@ -1,6 +1,6 @@
 # Cloneyoutube
 
-This project is a clone of the YouTube user interface built with React.js, Tailwind CSS, and API integration.
+This project is a clone of the YouTube user interface built with React.js, Tailwind CSS, and API integration using Rapid API.
 
 ## Requirements
 
@@ -20,6 +20,7 @@ Check out the live demo of the YoutubeClone project at [https://kholiator-youtub
 - React.js
 - Tailwind CSS
 - Axios
+- Rapid API
 - API integration
 
 
