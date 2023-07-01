@@ -2,7 +2,7 @@ import React, { useContext, useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 
 import ytLogo from "../images/yt-logo.png";
-import ytLogoMobile from "../images/yt-logo-mobile.png";
+import ytLogoMobile from "../images/yt-logo.png";
 
 import { SlMenu } from "react-icons/sl";
 import { IoIosSearch } from "react-icons/io";
@@ -84,15 +84,7 @@ const Header = () => {
         </button>
       </div>
       <div className="flex items-center">
-        <div className="hidden md:flex">
-          <div className="flex items-center justify-center h-10 w-10 rounded-full hover:bg-[#303030]/[0.6]">
-            <RiVideoAddLine className="text-white text-xl cursor-pointer" />
-          </div>
-          <div className="flex items-center justify-center ml-2 h-10 w-10 rounded-full hover:bg-[#303030]/[0.6]">
-            <FiBell className="text-white text-xl cursor-pointer" />
-          </div>
-        </div>
-        <div className="flex h-8 w-8 overflow-hidden rounded-full md:ml-4">
+        <div className="flex h-10 w-10 overflow-hidden rounded-full md:ml-4">
           <img src="https://xsgames.co/randomusers/assets/avatars/female/67.jpg" />
         </div>
       </div>

@@ -51,7 +51,7 @@ const LeftNav = () => {
         })}
         <hr className="my-5 border-white/[0.2]" />
         <div className="text-red-600/[0.6] text-[12px] font-extrabold">
-          Clone by: Kholiator
+          Made by: Kholiator
         </div>
       </div>
     </div>
